@@ -39,3 +39,11 @@ credentials.json
 
 .DS_Store
 Thumbs.db
+
+
+(FastAPI + React + Vite)
+.pytest_cache/
+.coverage
+frontend/.vite/
+*.db
+*.sqlite3
