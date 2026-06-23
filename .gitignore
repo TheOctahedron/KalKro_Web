@@ -1,46 +1,41 @@
-# Python
 __pycache__/
 *.py[cod]
 *.so
 .Python
-.env
 venv/
 .venv/
-backend/app/__pycache__/
+*.pyc
 
-# Node / Frontend
+
 frontend/node_modules/
 frontend/.env.local
 frontend/dist/
 frontend/.vite/
+node_modules/         
+dist/
+build/
 
-# IDE
+
+.env
+*.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+
+
+*.log
+*.db
+*.sqlite3
+
+
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
 
-.env
-*.env
-secrets.json
-credentials.json
-*.pem
-*.key
-*.log
-*.db
-*.sqlite3
-__pycache__/
-*.pyc
-.venv/
-venv/
-node_modules/
 .DS_Store
 Thumbs.db
-.idea/
-.vscode/
-dist/
-build/
